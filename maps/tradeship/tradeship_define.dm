@@ -1,11 +1,11 @@
 /datum/map/tradeship
-	name = "Tradeship"
-	full_name = "Tradeship Ocelot Alpha"
+	name = "CCF Ribbon"
+	full_name = "Corvette Class Freighter: Ribbon"
 	path = "tradeship"
 	ground_noun = "deck"
 
-	station_name  = "Tradeship Ocelot Alpha"
-	station_short = "Ocelot"
+	station_name  = "CCF Ribbon"
+	station_short = "Ribbon"
 
 	dock_name     = "FTS Capitalist's Rest"
 	boss_name     = "FTU Merchant Navy"
@@ -28,7 +28,7 @@
 	radiation_detected_message = "High levels of radiation have been detected in proximity of the %STATION_NAME%. Please move to a shielded area such as the cargo bay, dormitories or medbay until the radiation has passed."
 
 /datum/map/tradeship/get_map_info()
-	return "You're aboard the <b>[station_name],</b> a survey and mercantile vessel affiliated with the Free Trade Union. \
+	return "You're aboard the <b>[station_name],</b> a small, unarmed vessel that's removing itsself from better known sectors of space. \
 	No meaningful authorities can claim the planets and resources in this uncharted sector, so their exploitation is entirely up to you - mine, poach and deforest all you want."
 
 /datum/map/tradeship/create_trade_hubs()
