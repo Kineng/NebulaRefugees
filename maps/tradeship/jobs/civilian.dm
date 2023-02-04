@@ -8,7 +8,8 @@
 	alt_titles = list(
 		"Cook" = /decl/hierarchy/outfit/job/tradeship/hand/cook,
 		"Cargo Hand",
-		"Passenger")
+		"Passenger"
+		"Refugee")
 	department_types = list(/decl/department/civilian)
 	economic_power = 1
 	access = list()
